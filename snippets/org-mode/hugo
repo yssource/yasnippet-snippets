@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: hugo
+# key: hugo_
+# --
+#+HUGO_BASE_DIR: ../
+#+hugo_section: posts
+#+seq_todo: TODO DRAFT DONE
+#+property: header-args :eval no
+#+author: jimmy.m.gong
+
+#+TITLE: $1
+#+DATE: `(format-time-string "%Y-%m-%d")`
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: $2
+#+HUGO_CATEGORIES: $3
+#+HUGO_DRAFT: false
+$0
