@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: std::
 # key: st
+# group: std::
 # --
 std::$0
