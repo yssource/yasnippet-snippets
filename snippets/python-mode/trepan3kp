@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: trepan3k profile
+# key: trep
+# group: debug
+# --
+import trepan.api; trepan.api.debug(start_opts={'startup-profile': ['~/.config/trepanpy/profile']})

@@ -1,6 +1,6 @@
 # -*- mode: snippet; require-final-newline: nil -*-
-# name: trepan3k
-# key: tre
+# name: pudb
+# key: pudb
 # group: debug
 # --
-import trepan.api; trepan.api.debug()
+import pudb; pudb.set_trace()
