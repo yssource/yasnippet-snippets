@@ -3,5 +3,6 @@
 # key: vout
 # group: out
 # --
-std::copy(std::begin(${1:container}), std::end($1), std::ostream_iterator<$2>(std::cout, " "));
+#include <algorithm>
+std::for_each(std::cbegin(${1:container}), std::cend($1), [](const auto &e) {std::cout << e << " ";});
 std::cout << "\n";$0
