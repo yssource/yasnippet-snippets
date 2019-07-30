@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: std::transform
 # key: st.trsf
-# group: std::
+# group: std+
 # --
 std::transform(std::begin(${1:container}), std::end($1), std::begin($2),
 []($3) {
