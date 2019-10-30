@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: pragma::once
+# key: p.once
+# group: pragma+
+# --
+#pragma once
+$0
