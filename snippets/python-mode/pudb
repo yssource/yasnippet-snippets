@@ -4,3 +4,12 @@
 # group: debug
 # --
 import pudb; pudb.set_trace()
+||||||| a340200
+=======
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: pudb trace
+# key: pudb
+# group: debug
+# --
+import pudb; pudb.set_trace()
+>>>>>>> master
