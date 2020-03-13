@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: test
+# key: test
+# --
+add_test(${1:ATestName} ${0:testCommand --options})

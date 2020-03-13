@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: conan_setup
+# key: cn.setup
+# group: conan
+# --
+include(\${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
+conan_basic_setup()

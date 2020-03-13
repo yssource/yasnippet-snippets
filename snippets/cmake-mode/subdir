@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: subdir
+# key: sub
+# --
+add_subdirectory(${0:src})
