@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: decmeta
+# key: decm
+# group : definitions
+# --
+from functools import wraps
+def ${1:decoratormeta}(${2:*args,} ${3:**kwargs}):
+    def ${4:decorator}(func):
+        $5
+        @wraps(func)
+        def wrapper(*args, **kwargs):
+            $6
+            ret = func(*args, **kwargs)
+            $7
+            return ret
+        return wrapper
+    return $4
