@@ -3,4 +3,4 @@
 # key: trep
 # group: debug
 # --
-import trepan.api; trepan.api.debug(start_opts={'startup-profile': ['~/.config/trepanpy/profile']})
+import trepan.api; trepan.api.debug(start_opts={"startup-profile": ["~/.config/trepanpy/profile"]})
